@@ -12,8 +12,6 @@ async function ConverterMoedas() {
 
     let dolar = moedas.USDBRL.high
     let euro = moedas.EURBRL.high
-    console.log(dolar)
-    console.log(euro)
 
     let inputvalorEmReais = Number(document.getElementById("input").value)
 
